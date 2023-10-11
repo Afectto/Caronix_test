@@ -20,21 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d9be327-c3e1-4bf5-86a5-056f29a0d56e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SaveSystem.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveLoadSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveLoadSystem.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Caronix_Test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Caronix_Test/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Caronix_Test/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Caronix_Test/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Caronix_Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Caronix_Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ParseJSONResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ParseJSONResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interfaces/IEnemyData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interfaces/IEnemyData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/JSON/ParseJSONResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/JSON/ParseJSONResponse.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProjectData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ProjectData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,22 +35,18 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/20E7685D-165B-4202-A1EE-832A1B9EE11A/0d/96dcbf3e/SendMouseEvents.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F712B1DC-50B4-4683-88B9-C5F95D0D0EAF/71/adada167/AsyncOperation.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UpdatePlayerData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/79C7B132-C517-45CB-AE03-EEBEA8111C0E/64/19ef2f32/IMGUIContainer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B24CC7F-A979-4ED8-AB04-312C53E6DEDD/35/3b3914ae/SceneManagerAPIInternal.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F712B1DC-50B4-4683-88B9-C5F95D0D0EAF/99/46bd16c9/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/79C7B132-C517-45CB-AE03-EEBEA8111C0E/7d/38706217/EventDispatcher.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6675691A-D542-4F8F-8787-86C0C92E44AE/6e/cc353eff/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LoadImageFromURL.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F712B1DC-50B4-4683-88B9-C5F95D0D0EAF/ef/802b819c/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/TotalJSON/Scripts/JValue.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Interfaces/IEnemyData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LoadImageFromURL.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Fight.cs" />
@@ -78,7 +62,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneController.cs" />
         <option value="$PROJECT_DIR$/Assets/TotalJSON/Internal/InternalTools.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ParseJSONResponse.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interfaces/IEnemyData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ProjectData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/JSON/ParseJSONResponse.cs" />
       </list>
     </option>
   </component>
@@ -129,7 +115,7 @@
       <updated>1696849605613</updated>
       <workItem from="1696849609770" duration="5401000" />
       <workItem from="1696857848952" duration="28934000" />
-      <workItem from="1697024992501" duration="783000" />
+      <workItem from="1697024992501" duration="3310000" />
     </task>
     <servers />
   </component>
@@ -154,42 +140,42 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="433" height="464" key="DebuggerActiveHint" timestamp="1696859115716">
+    <state width="433" height="464" key="DebuggerActiveHint" timestamp="1697025953303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="433" height="464" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1696859115716" />
-    <state width="1877" height="227" key="GridCell.Tab.0.bottom" timestamp="1697021838568">
+    <state width="433" height="464" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1697025953303" />
+    <state width="1877" height="227" key="GridCell.Tab.0.bottom" timestamp="1697025917057">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="227" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1697021838568" />
-    <state width="1877" height="227" key="GridCell.Tab.0.center" timestamp="1697021838568">
+    <state width="1877" height="227" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1697025917057" />
+    <state width="1877" height="227" key="GridCell.Tab.0.center" timestamp="1697025917057">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="227" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1697021838568" />
-    <state width="1877" height="227" key="GridCell.Tab.0.left" timestamp="1697021838568">
+    <state width="1877" height="227" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1697025917057" />
+    <state width="1877" height="227" key="GridCell.Tab.0.left" timestamp="1697025917057">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="227" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1697021838568" />
-    <state width="1877" height="227" key="GridCell.Tab.0.right" timestamp="1697021838568">
+    <state width="1877" height="227" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1697025917057" />
+    <state width="1877" height="227" key="GridCell.Tab.0.right" timestamp="1697025917057">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="227" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1697021838568" />
-    <state width="1877" height="227" key="GridCell.Tab.1.bottom" timestamp="1697021838568">
+    <state width="1877" height="227" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1697025917057" />
+    <state width="1877" height="227" key="GridCell.Tab.1.bottom" timestamp="1697025925358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="227" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1697021838568" />
-    <state width="1877" height="227" key="GridCell.Tab.1.center" timestamp="1697021838568">
+    <state width="1877" height="227" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1697025925358" />
+    <state width="1877" height="227" key="GridCell.Tab.1.center" timestamp="1697025925357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="227" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1697021838568" />
-    <state width="1877" height="227" key="GridCell.Tab.1.left" timestamp="1697021838568">
+    <state width="1877" height="227" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1697025925357" />
+    <state width="1877" height="227" key="GridCell.Tab.1.left" timestamp="1697025925357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="227" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1697021838568" />
-    <state width="1877" height="227" key="GridCell.Tab.1.right" timestamp="1697021838568">
+    <state width="1877" height="227" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1697025925357" />
+    <state width="1877" height="227" key="GridCell.Tab.1.right" timestamp="1697025925358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="227" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1697021838568" />
+    <state width="1877" height="227" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1697025925358" />
     <state width="1877" height="227" key="GridCell.Tab.2.bottom" timestamp="1697021838569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -226,14 +212,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="788" y="194" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1696857298425" />
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1697029287790">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1697029287790" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1697015406309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1697015406309" />
-    <state x="741" y="119" width="666" height="801" key="find.popup" timestamp="1697025145082">
+    <state x="741" y="119" width="666" height="801" key="find.popup" timestamp="1697029224190">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="741" y="119" width="666" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1697025145082" />
+    <state x="741" y="119" width="666" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1697029224190" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1697012787224">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -243,17 +233,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs</url>
-          <line>23</line>
-          <properties documentPath="C:\Users\User\Caronix_test\Assets\Scripts\Enemy.cs" initialLine="23">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Player/UpdateResultData.cs</url>
+          <line>15</line>
+          <properties documentPath="C:\Users\User\Caronix_test\Assets\Scripts\Player\UpdateResultData.cs" initialLine="15">
             <startOffsets>
-              <option value="698" />
+              <option value="343" />
             </startOffsets>
             <endOffsets>
-              <option value="745" />
+              <option value="402" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="13" />
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

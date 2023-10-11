@@ -1,6 +1,5 @@
 ﻿public interface IEnemyData
 {
-    string FirstName { get; set; }
-    string SecondName { get; set; }
+    Name Name{ get; set; }
     string PathImg { get; set; }
 }

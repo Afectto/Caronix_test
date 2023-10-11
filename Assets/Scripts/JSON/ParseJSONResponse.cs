@@ -43,7 +43,8 @@ public class ParseJSONResponse : MonoBehaviour
         GETNewEnemyData(enemyData =>
         {
             LoadImageFromURL.ReloadImage(enemyData.PathImg);
-            NameEnemy.text = enemyData.FirstName + " " + enemyData.SecondName;
+            var enemyDataName = enemyData.Name;
+            NameEnemy.text = enemyDataName.first + " " + enemyDataName.last;
             // SceneController.Instance.UnloadOverlayScene("Loaded");
             overlay.SetActive(false);
             

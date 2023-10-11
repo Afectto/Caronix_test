@@ -17,79 +17,29 @@
         <e p="Image" t="Include" />
         <e p="Scenes" t="Include" />
         <e p="Scripts" t="Include">
-          <e p="ButtonNextScene.cs" t="Include" />
-          <e p="CreateNewPlayer.cs" t="Include" />
-          <e p="Enemy.cs" t="Include" />
+          <e p="Enemy" t="Include">
+            <e p="Enemy.cs" t="Include" />
+          </e>
           <e p="Interfaces" t="Include">
             <e p="IEnemyData.cs" t="Include" />
           </e>
-          <e p="LoadImageFromURL.cs" t="Include" />
-          <e p="ParseJSONResponse.cs" t="Include" />
+          <e p="JSON" t="Include">
+            <e p="LoadImageFromURL.cs" t="Include" />
+            <e p="ParseJSONResponse.cs" t="Include" />
+          </e>
+          <e p="Player" t="Include">
+            <e p="CreateNewPlayer.cs" t="Include" />
+            <e p="UpdatePlayerData.cs" t="Include" />
+            <e p="UpdateResultData.cs" t="Include" />
+          </e>
           <e p="ProjectData.cs" t="Include" />
           <e p="SaveSystem" t="Include">
             <e p="SaveData.cs" t="Include" />
             <e p="SaveLoadSystem.cs" t="Include" />
           </e>
-          <e p="SceneController.cs" t="Include" />
-          <e p="UpdatePlayerData.cs" t="Include" />
-          <e p="UpdateResultData.cs" t="Include" />
-        </e>
-        <e p="TotalJSON" t="Include">
-          <e p="Examples" t="Include">
-            <e p="CreateAndModifyJSON.cs" t="Include" />
-            <e p="ExampleSerializeObjects" t="Include">
-              <e p="ExamplePlayerItemObject.cs" t="Include" />
-              <e p="ExamplePlayerObject.cs" t="Include" />
-            </e>
-            <e p="ParseAndHandleJSON.cs" t="Include" />
-            <e p="SaveAndLoadFile.cs" t="Include" />
-            <e p="SerializeAndDeserialize.cs" t="Include" />
-          </e>
-          <e p="Internal" t="Include">
-            <e p="CreateStringRunner.cs" t="Include" />
-            <e p="Editor" t="Include">
-              <e p="JSONRuntimeDebug.cs" t="Include" />
-              <e p="JSONValidator.cs" t="Include" />
-            </e>
-            <e p="InternalTools.cs" t="Include" />
-            <e p="JSONRuntimeDebugContainer.cs" t="Include" />
-            <e p="ParseStringRunner.cs" t="Include" />
-            <e p="StringPointer.cs" t="Include" />
-          </e>
-          <e p="Scripts" t="Include">
-            <e p="Attributes" t="Include">
-              <e p="ExcludeFromJSONSerializeAttribute.cs" t="Include" />
-              <e p="IncludeToJSONSerializeAttribute.cs" t="Include" />
-            </e>
-            <e p="Exceptions" t="Include">
-              <e p="DeserializeException.cs" t="Include" />
-              <e p="JArgumentException.cs" t="Include" />
-              <e p="JArgumentNullException.cs" t="Include" />
-              <e p="JArrayIndexOutOfRangeException.cs" t="Include" />
-              <e p="JNumberFormatException.cs" t="Include" />
-              <e p="JNumberOverflowException.cs" t="Include" />
-              <e p="JSONKeyAlreadyExistsException.cs" t="Include" />
-              <e p="JSONKeyNotFoundException.cs" t="Include" />
-              <e p="JValueNullException.cs" t="Include" />
-              <e p="JValueTypeException.cs" t="Include" />
-              <e p="ParseException.cs" t="Include" />
-              <e p="ProtectedException.cs" t="Include" />
-              <e p="SerializeException.cs" t="Include" />
-              <e p="UnknownObjectTypeException.cs" t="Include" />
-            </e>
-            <e p="JArray.cs" t="Include" />
-            <e p="JBoolean.cs" t="Include" />
-            <e p="JNull.cs" t="Include" />
-            <e p="JNumber.cs" t="Include" />
-            <e p="JSON.cs" t="Include" />
-            <e p="JString.cs" t="Include" />
-            <e p="JValue.cs" t="Include" />
-            <e p="Settings" t="Include">
-              <e p="CreateStringSettings.cs" t="Include" />
-              <e p="DeserializeSettings.cs" t="Include" />
-              <e p="ParseStringSettings.cs" t="Include" />
-              <e p="SerializeSettings.cs" t="Include" />
-            </e>
+          <e p="Scene" t="Include">
+            <e p="ButtonNextScene.cs" t="Include" />
+            <e p="SceneController.cs" t="Include" />
           </e>
         </e>
       </e>

@@ -2,21 +2,18 @@
 
 public struct EnemyData : IEnemyData
 {
-    public string FirstName { get; set; }
-    public string SecondName { get; set; }
+    public Name Name { get; set; }
     public string PathImg { get; set; }
 
     public EnemyData(string firstName, string secondName, string pathImg)
     {
-        this.FirstName = firstName;
-        this.SecondName = secondName;
+        Name = new Name(firstName, secondName);
         this.PathImg = pathImg;
     }
 
     public void UpdateData(string firstName, string secondName, string pathImg)
     {
-        FirstName = firstName;
-        SecondName = secondName;
+        Name = new Name(firstName, secondName);
         PathImg = pathImg;
     }
 }    
@@ -39,6 +36,12 @@ public struct Name
 {
     public string first;
     public string last;
+
+    public Name(string first, string last)
+    {
+        this.first = first;
+        this.last = last;
+    }
 }
 
 [System.Serializable]
