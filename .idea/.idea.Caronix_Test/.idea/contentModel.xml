@@ -8,6 +8,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Adaptive Performance" t="Include">
+          <e p="Provider" t="Include" />
           <e p="Settings" t="Include" />
         </e>
         <e p="Editor" t="Include">
@@ -16,12 +17,22 @@
         <e p="Image" t="Include" />
         <e p="Scenes" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="ButtonNextScene.cs" t="Include" />
+          <e p="CreateNewPlayer.cs" t="Include" />
+          <e p="Enemy.cs" t="Include" />
           <e p="Interfaces" t="Include">
             <e p="IEnemyData.cs" t="Include" />
           </e>
           <e p="LoadImageFromURL.cs" t="Include" />
           <e p="ParseJSONResponse.cs" t="Include" />
           <e p="ProjectData.cs" t="Include" />
+          <e p="SaveSystem" t="Include">
+            <e p="SaveData.cs" t="Include" />
+            <e p="SaveLoadSystem.cs" t="Include" />
+          </e>
+          <e p="SceneController.cs" t="Include" />
+          <e p="UpdatePlayerData.cs" t="Include" />
+          <e p="UpdateResultData.cs" t="Include" />
         </e>
         <e p="TotalJSON" t="Include">
           <e p="Examples" t="Include">

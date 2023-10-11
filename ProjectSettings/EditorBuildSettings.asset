@@ -6,7 +6,19 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/FirsStartGame.unity
+    guid: 4d3647e5c99befb48b7f51268f2870f8
+  - enabled: 1
+    path: Assets/Scenes/FindEnemy.unity
+    guid: 3fc8acdd13e6c734bafef6554d6fdbcd
+  - enabled: 1
+    path: Assets/Scenes/Play.unity
+    guid: 85d65afb31c886640949d64177b6b167
+  - enabled: 1
+    path: Assets/Scenes/Result.unity
+    guid: f40d7b673df949049a0bbfc7e27d53de
   m_configObjects:
+    com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 8728140718296f743bed647fe060321b, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 4e5b7f169ec063b498b61fb18ab39fce, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: c523ddefa4214cc479bda8f51da702bb, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 9f251b24f11280e47ad48ac375686ff9, type: 2}
