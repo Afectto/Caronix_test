@@ -13,48 +13,13 @@ public class ParseJSONResponse : MonoBehaviour
     private string _pathImg;
     
     public EnemyData EnemyData;
-    
-    public LoadImageFromURL LoadImageFromURL;
-    public Text NameEnemy;
 
-    public GameObject player;
-    public GameObject overlay;
-    
-    private void Start()
-    {
-        NewEnemy();
-    }
-
-    public IEnemyData GETCurrentEnemyData()
-    {
-        if (_pathImg == null || _lastName == null || _firstName == null) return null;
-        return EnemyData;
-    }
-    
     public void GETNewEnemyData(Action<IEnemyData> callback)
     {
         StartCoroutine(ParseResponse(callback));
     }
 
-    public void NewEnemy()
-    {
-        overlay.SetActive(true);
-        // SceneController.Instance.LoadNextScene("Loaded", LoadSceneMode.Additive);
-        GETNewEnemyData(enemyData =>
-        {
-            LoadImageFromURL.ReloadImage(enemyData.PathImg);
-            var enemyDataName = enemyData.Name;
-            NameEnemy.text = enemyDataName.first + " " + enemyDataName.last;
-            // SceneController.Instance.UnloadOverlayScene("Loaded");
-            overlay.SetActive(false);
-            
-            player.GetComponent<UpdatePlayerData>().UpdateData();
-            
-            PlayerPrefs.SetString("EnemyName", NameEnemy.text);
-            PlayerPrefs.Save();
-        });
-    }
-
+ 
     IEnumerator ParseResponse(Action<IEnemyData> callback)
     {
         using (UnityWebRequest webRequest = UnityWebRequest.Get(APIUrl))
